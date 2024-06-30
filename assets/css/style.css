@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    border: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+section{
+    justify-content: center;
+    max-height: 100vh;
+    justify-items: center;
+    align-items: center;
+    text-align: left;
+}
+.container{
+    max-width: 1170px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-right:-12px;
+    margin-left: -12px;
+}
+.justify-content-between{
+    justify-content: space-between;
+}
+
+.d-flex{
+    display: flex;
+}
+
+
+body{
+    background-image: url(/assets/image/Image.png);
+    background-repeat: no-repeat;
+    background-color: #2F1893;
+   background-size: cover;
+    
+}
+.circle{
+    height: 70px;
+    width: 70px;
+   background-color: red;
+   display: inline-block;
+   border-radius: 100px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   cursor: pointer;
+  
+}
+.circle-parent{
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+}
+.text-color{
+    color: white;
+}
+
+
+button{
+    height: 40px;
+    width: 100px;
+    border-radius: 30px;
+    background: #25DAC5;
+    margin-top: 20px;
+}
+.heading{
+font-family: DM Sans;
+font-size: 18px;
+font-weight: 500;
+line-height: 26px;
+text-align: left;
+padding: 10px;
+margin-top: 15px;
+cursor: pointer;
+
+}
+
+.btn-color{
+    color: white;
+}
+.text-design{
+    font-family: DM Sans;
+font-size: 24px;
+font-weight: 700;
+line-height: 31.25px;
+letter-spacing: -0.2926828861236572px;
+text-align: center;
+
+}
+.para{
+
+font-family: DM Sans;
+font-size: 58px;
+font-weight: 700;
+line-height: 70px;
+letter-spacing: -1px;
+text-align: center;
+color: #FFFFFF;
+padding-top: 80px;
+ }
+.para-2{
+    
+font-family: DM Sans;
+font-size: 18px;
+font-weight: 500;
+line-height: 28px;
+text-align: center;
+color: #FFFFFF;
+ padding-top: 50px;
+}
