@@ -6,43 +6,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="/assets/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
 </head>
 
 <body>
-
     <header>
-        <div class="container">
-            <nav class="d-flex justify-content-between text-color ">
-                <ul class="d-flex gap-30 alin align-item-center">
-                    <li class="heading">Products</li>
-                    <li class="heading">Pricing</li>
-                    <li class="heading">Community</li>
-                </ul>
-                <ul class="d-flex">
-                    <li class="top text-design heading">Startup 3</li>
-                </ul>
-                <ul class="d-flex">
-                    <li class="heading">Login</li>
-                    <button><a class="btn-color " href="">Sign Up</a> </button>
-                </ul>
-            </nav>
+        <label for="menubar">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+        <input type="checkbox" class="check" id="menubar" hidden>
+        <h3 class="d-lg-none">Startup 3</h3>
+        <nav class="nav-bar">
+            <ul class="d-flex lg-view position-r">
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Community</a></li>
+            </ul>
+
+            <h4 class="middle">Satrtup3</h4>
+
+            <ul class=" d-flex lg-view text-right position-a ">
+                <li><a href="#">Login</a></li>
+                <li><a href="#"><button class="button">Sign up</button></a></li>
+            </ul>
+        </nav>
     </header>
     <section>
         <div class="container">
             <p class="para">A high-quality solution for<br> those who want a beautiful<br> startup website quickly</p>
             <div class="circle-parent">
-            <span class="circle">
-                <svg width="16" height="18" viewBox="0 0 16 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path
-                        d="M15.5851 9.20312L0.763672 17.4397C0.592541 17.5365 0.443731 17.5476 0.317243 17.4732C0.198196 17.3988 0.138672 17.2649 0.138672 17.0714V0.642856C0.138672 0.449404 0.198196 0.315476 0.317243 0.241071C0.443731 0.166666 0.592541 0.177827 0.763672 0.274553L15.5851 8.51116C15.7562 8.60789 15.8418 8.72321 15.8418 8.85714C15.8418 8.99107 15.7562 9.1064 15.5851 9.20312Z"
-                        fill="white" />
-                </svg>
-            </span>
-        
-        </div>
+                <span class="circle">
+                    <svg width="16" height="18" viewBox="0 0 16 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M15.5851 9.20312L0.763672 17.4397C0.592541 17.5365 0.443731 17.5476 0.317243 17.4732C0.198196 17.3988 0.138672 17.2649 0.138672 17.0714V0.642856C0.138672 0.449404 0.198196 0.315476 0.317243 0.241071C0.443731 0.166666 0.592541 0.177827 0.763672 0.274553L15.5851 8.51116C15.7562 8.60789 15.8418 8.72321 15.8418 8.85714C15.8418 8.99107 15.7562 9.1064 15.5851 9.20312Z"
+                            fill="white" />
+                    </svg>
+                </span>
+
+            </div>
             <p class="para-2">We made it so beutiful and simple. It combines landings,<br> pages, blogs and shop
                 screens. It is definitely the tool you<br> need in your collection! </p>
-           </div>
+        </div>
         </div>
     </section>
 </body>
